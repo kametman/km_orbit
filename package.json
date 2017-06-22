@@ -1,0 +1,50 @@
+{
+    "author": "r0cool01@gmail.com",
+    "dependencies": {
+        "pebble-clay": "^1.0.3"
+    },
+    "keywords": [],
+    "name": "km-orbit",
+    "pebble": {
+        "capabilities": [
+            "configurable",
+            "health"
+        ],
+        "displayName": "KM Orbit",
+        "enableMultiJS": true,
+        "messageKeys": [
+            "HOUR",
+            "TENS",
+            "ONES",
+            "BATT",
+            "STEP1",
+            "STEP2"
+        ],
+        "projectType": "native",
+        "resources": {
+            "media": [
+                {
+                    "file": "fonts/square_sans_serif_7.ttf",
+                    "name": "FONT_SQUARE_26",
+                    "targetPlatforms": null,
+                    "type": "font"
+                },
+                {
+                    "file": "fonts/square_sans_serif_7.ttf",
+                    "name": "FONT_SQUARE_22",
+                    "targetPlatforms": null,
+                    "type": "font"
+                }
+            ]
+        },
+        "sdkVersion": "3",
+        "targetPlatforms": [
+            "basalt"
+        ],
+        "uuid": "5e6b8c35-587e-417e-b026-c56d9c8f1d38",
+        "watchapp": {
+            "watchface": true
+        }
+    },
+    "version": "1.0.0"
+}
